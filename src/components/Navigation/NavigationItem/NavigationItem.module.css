@@ -1,26 +1,26 @@
 .NavigationItem {
-    display: block;
-    color: #333;
+	display: block;
+	color: #333;
 	text-align: left;
 }
 
 .NavigationItem a {
-    margin: 0 20px;
+	margin: 0 20px;
 	padding: 20px;
-    display: block;
-    font-weight: bold;
-    color: #fff;
-    text-decoration: none;
+	display: block;
+	font-weight: bold;
+	color: #fff;
+	text-decoration: none;
 	border-bottom: 1px solid #eeeeee;
 }
 
 .NavigationItem a:hover {
-    color: orange;
-    text-decoration: underline;
+	color: orange;
+	text-decoration: underline;
 }
 
 .NavigationItem a.active {
-    color: orange;
+	color: orange;
 }
 
 @media (min-width: 500px) {
