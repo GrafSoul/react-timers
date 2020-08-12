@@ -5,14 +5,18 @@ import NavigationItem from './NavigationItem/NavigationItem';
 
 const Navigation = () => (
     <ul className={classes.Navigation}>
-        <NavigationItem link="/" exact>
+        <NavigationItem link="/react-timers" exact>
             Home
         </NavigationItem>
-        <NavigationItem link="/timer">Timer</NavigationItem>
-        <NavigationItem link="/stopwatch">Stopwatch</NavigationItem>
-        <NavigationItem link="/pomidoro">Pomidoro</NavigationItem>
-        <NavigationItem link="/chessclock">Chess Clock</NavigationItem>
-        <NavigationItem link="/alarm">Alarm Clock</NavigationItem>
+        <NavigationItem link="/react-timers/timer">Timer</NavigationItem>
+        <NavigationItem link="/react-timers/stopwatch">
+            Stopwatch
+        </NavigationItem>
+        <NavigationItem link="/react-timers/pomidoro">Pomidoro</NavigationItem>
+        <NavigationItem link="/react-timers/chessclock">
+            Chess Clock
+        </NavigationItem>
+        <NavigationItem link="/react-timers/alarm">Alarm Clock</NavigationItem>
     </ul>
 );
 

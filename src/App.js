@@ -15,12 +15,25 @@ class App extends Component {
             <div>
                 <Layout>
                     <Switch>
-                        <Route path="/alarm" component={Alarm} />
-                        <Route path="/chessclock" component={ChessClock} />
-                        <Route path="/pomidoro" component={Pomidoro} />
-                        <Route path="/stopwatch" component={Stopwatch} />
-                        <Route path="/timer" exact component={Timer} />
-                        <Route path="/" exact component={Home} />
+                        <Route path="/react-timers/alarm" component={Alarm} />
+                        <Route
+                            path="/react-timers/chessclock"
+                            component={ChessClock}
+                        />
+                        <Route
+                            path="/react-timers/pomidoro"
+                            component={Pomidoro}
+                        />
+                        <Route
+                            path="/react-timers/stopwatch"
+                            component={Stopwatch}
+                        />
+                        <Route
+                            path="/react-timers/timer"
+                            exact
+                            component={Timer}
+                        />
+                        <Route path="/react-timers" exact component={Home} />
                     </Switch>
                 </Layout>
             </div>
