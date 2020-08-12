@@ -1,0 +1,12 @@
+.Header {
+    background-color: #3E2723;
+    padding: 20px;
+    color: white;
+	min-width: 320px;
+}
+
+@media (max-width: 499px) {
+	.DesktopOnly {
+		display: none;
+	}
+}
